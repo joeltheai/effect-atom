@@ -25,11 +25,11 @@
   "sideEffects": [],
   "devDependencies": {
     "@livestore/livestore": "^0.4.0",
-    "effect": "^3.21.0"
+    "effect": "^3.22.1"
   },
   "peerDependencies": {
     "@livestore/livestore": "*",
-    "effect": "^3.19"
+    "effect": "^3.22.1"
   },
   "dependencies": {
     "@effect-atom/atom": "workspace:^"
