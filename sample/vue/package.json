@@ -16,10 +16,10 @@
   "devDependencies": {
     "@effect-atom/atom": "workspace:*",
     "@effect-atom/atom-vue": "workspace:*",
-    "@effect/rpc": "^0.75.0",
+    "@effect/rpc": "^0.76.2",
     "@vitejs/plugin-vue": "^6.0.6",
     "@vue/tsconfig": "^0.9.1",
-    "effect": "^3.21.0",
+    "effect": "^3.22.1",
     "typescript": "~6.0.2",
     "vite": "^7.3.1",
     "vue": "^3.5.32",

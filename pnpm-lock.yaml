@@ -40,7 +40,7 @@ importers:
         version: 0.85.1
       '@effect/vitest':
         specifier: ^0.29.0
-        version: 0.29.0(effect@3.21.0)(vitest@4.1.4)
+        version: 0.29.0(effect@3.22.1)(vitest@4.1.4)
       '@eslint/compat':
         specifier: ^2.0.5
         version: 2.0.5(eslint@9.39.4(supports-color@7.2.0))
@@ -216,8 +216,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/atom-vue/dist
       '@effect/rpc':
-        specifier: ^0.75.0
-        version: 0.75.0(@effect/platform@0.96.0(effect@3.21.0))(effect@3.21.0)
+        specifier: ^0.76.2
+        version: 0.76.2(@effect/platform@0.97.1(effect@3.22.1))(effect@3.22.1)
       '@vitejs/plugin-vue':
         specifier: ^6.0.6
         version: 6.0.6(vite@7.3.2(@types/node@25.6.0)(tsx@4.21.0)(yaml@2.8.3))(vue@3.5.32(typescript@6.0.2))
@@ -225,8 +225,8 @@ importers:
         specifier: ^0.9.1
         version: 0.9.1(typescript@6.0.2)(vue@3.5.32(typescript@6.0.2))
       effect:
-        specifier: ^3.21.0
-        version: 3.21.0
+        specifier: ^3.22.1
+        version: 3.22.1
       typescript:
         specifier: ~6.0.2
         version: 6.0.2
@@ -588,11 +588,6 @@ packages:
       '@effect/sql': ^0.51.0
       effect: ^3.21.0
 
-  '@effect/platform@0.96.0':
-    resolution: {integrity: sha512-U7PLhkVzg7zzrgFvyWATOzD6reL87KG/fcdOxgLWBQ/J5CCU6qdPAVG+0o6o+IxcsLoqGwxs+rFxaFzrdtDV1A==}
-    peerDependencies:
-      effect: ^3.21.0
-
   '@effect/platform@0.96.3':
     resolution: {integrity: sha512-LzvIj4HYE++TcTv/cVTCI/GRvQTV0ymwRmgjZMzNB5dU4OS05pTN36RKN0npiOm5orLJgw4yjIv1dNZoYGh/vg==}
     peerDependencies:
@@ -613,12 +608,6 @@ packages:
     resolution: {integrity: sha512-hrjTuExF87wuWjOnnND1c2fKcCWhleQBVaoA7JlrU3rC7s+RYPETDOXtpgAK3/uuMCRnDhfVFQMevtKT8MBdKg==}
     peerDependencies:
       '@effect/typeclass': ^0.40.0
-      effect: ^3.21.0
-
-  '@effect/rpc@0.75.0':
-    resolution: {integrity: sha512-VFeJ16cZUXqiIzG9UHOVKGuiBPJ7fV+0lEbJU6xi12JnnxXe/19BQPpOwiRawCUbPOR3/xIURDUgGxU+Ft0pvQ==}
-    peerDependencies:
-      '@effect/platform': ^0.96.0
       effect: ^3.21.0
 
   '@effect/rpc@0.75.1':
@@ -2305,9 +2294,6 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  effect@3.21.0:
-    resolution: {integrity: sha512-PPN80qRokCd1f015IANNhrwOnLO7GrrMQfk4/lnZRE/8j7UPWrNNjPV0uBrZutI/nHzernbW+J0hdqQysHiSnQ==}
-
   effect@3.22.1:
     resolution: {integrity: sha512-TNoXushmPOBAjJlthF5d2QwnX2xBPEtcNJr5XKNKbRLbDvBcOYkXlYDfvGfSA0zriwLFuCll5MDtNMAdZL17PQ==}
 
@@ -3334,17 +3320,11 @@ packages:
     resolution: {integrity: sha512-P0efT1C9jIdVRefqjzOQ9Xml57zpOXnIuS+csaB4MdZbTdmGDLo8XhzBG1N7aO11gKDDkJvBLULeFTo46wwreA==}
     hasBin: true
 
-  msgpackr@1.11.9:
-    resolution: {integrity: sha512-FkoAAyyA6HM8wL882EcEyFZ9s7hVADSwG9xrVx3dxxNQAtgADTrJoEWivID82Iv1zWDsv/OtbrrcZAzGzOMdNw==}
-
   msgpackr@1.12.1:
     resolution: {integrity: sha512-4EUH9tQHnMmEgzW/MdAP0KIfa1T9AF+htl0ffe2n5vb2EKn9y2co8ccpgWko6S52Jy1PQZKwRnx5/KkYjtd9MQ==}
 
   muggle-string@0.4.1:
     resolution: {integrity: sha512-VNTrAak/KhO2i8dqqnqnAHOa3cYBwXEZe9h+D5h/1ZqFSTEFHdM65lR7RoIqq3tBBYavsOXV84NoHXZ0AkPyqQ==}
-
-  multipasta@0.2.7:
-    resolution: {integrity: sha512-KPA58d68KgGil15oDqXjkUBEBYc00XvbPj5/X+dyzeo/lWm9Nc25pQRlf1D+gv4OpK7NM0J1odrbu9JNNGvynA==}
 
   multipasta@0.2.8:
     resolution: {integrity: sha512-ZPWuMKyv0cSO29f7hozp+k6+crZbQijV8ipMvxNxRf2SwtYGTX1ZX89Kd20VV4H9Znonx+EQn+iy1wGQsJ+b+Q==}
@@ -4869,7 +4849,7 @@ snapshots:
     dependencies:
       '@effect/platform': 0.96.3(effect@3.22.1)
       effect: 3.22.1
-      multipasta: 0.2.7
+      multipasta: 0.2.8
 
   '@effect/platform-bun@0.89.0(@effect/cluster@0.58.2(@effect/platform@0.96.3(effect@3.22.1))(@effect/rpc@0.75.1(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/sql@0.51.1(@effect/experimental@0.60.0(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/workflow@0.18.2(@effect/experimental@0.60.0(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(@effect/rpc@0.75.1(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(@effect/rpc@0.75.1(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/sql@0.51.1(@effect/experimental@0.60.0(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(effect@3.22.1)':
     dependencies:
@@ -4879,7 +4859,7 @@ snapshots:
       '@effect/rpc': 0.75.1(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1)
       '@effect/sql': 0.51.1(@effect/experimental@0.60.0(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1)
       effect: 3.22.1
-      multipasta: 0.2.7
+      multipasta: 0.2.8
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4892,7 +4872,7 @@ snapshots:
       '@effect/sql': 0.51.1(@effect/experimental@0.60.0(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1))(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1)
       '@parcel/watcher': 2.5.6
       effect: 3.22.1
-      multipasta: 0.2.7
+      multipasta: 0.2.8
       ws: 8.20.0
     transitivePeerDependencies:
       - bufferutil
@@ -4913,19 +4893,12 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@effect/platform@0.96.0(effect@3.21.0)':
-    dependencies:
-      effect: 3.21.0
-      find-my-way-ts: 0.1.6
-      msgpackr: 1.11.9
-      multipasta: 0.2.7
-
   '@effect/platform@0.96.3(effect@3.22.1)':
     dependencies:
       effect: 3.22.1
       find-my-way-ts: 0.1.6
       msgpackr: 1.12.1
-      multipasta: 0.2.7
+      multipasta: 0.2.8
 
   '@effect/platform@0.97.1(effect@3.22.1)':
     dependencies:
@@ -4944,12 +4917,6 @@ snapshots:
     dependencies:
       '@effect/typeclass': 0.40.0(effect@3.22.1)
       effect: 3.22.1
-
-  '@effect/rpc@0.75.0(@effect/platform@0.96.0(effect@3.21.0))(effect@3.21.0)':
-    dependencies:
-      '@effect/platform': 0.96.0(effect@3.21.0)
-      effect: 3.21.0
-      msgpackr: 1.11.9
 
   '@effect/rpc@0.75.1(@effect/platform@0.96.3(effect@3.22.1))(effect@3.22.1)':
     dependencies:
@@ -4973,11 +4940,6 @@ snapshots:
   '@effect/typeclass@0.40.0(effect@3.22.1)':
     dependencies:
       effect: 3.22.1
-
-  '@effect/vitest@0.29.0(effect@3.21.0)(vitest@4.1.4)':
-    dependencies:
-      effect: 3.21.0
-      vitest: 4.1.4(@opentelemetry/api@1.9.0)(@types/node@25.6.0)(@vitest/coverage-v8@4.1.4)(jsdom@29.0.2)(vite@7.3.2(@types/node@25.6.0)(tsx@4.21.0)(yaml@2.8.3))
 
   '@effect/vitest@0.29.0(effect@3.22.1)(vitest@4.1.4)':
     dependencies:
@@ -6589,11 +6551,6 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  effect@3.21.0:
-    dependencies:
-      '@standard-schema/spec': 1.1.0
-      fast-check: 3.23.2
-
   effect@3.22.1:
     dependencies:
       '@standard-schema/spec': 1.1.0
@@ -7805,17 +7762,11 @@ snapshots:
       '@msgpackr-extract/msgpackr-extract-win32-x64': 3.0.3
     optional: true
 
-  msgpackr@1.11.9:
-    optionalDependencies:
-      msgpackr-extract: 3.0.3
-
   msgpackr@1.12.1:
     optionalDependencies:
       msgpackr-extract: 3.0.3
 
   muggle-string@0.4.1: {}
-
-  multipasta@0.2.7: {}
 
   multipasta@0.2.8: {}
 
